@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gym Website</title>
+    <link rel="stylesheet" href="GymWebsiteProject.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Iron Haven Gym</h1>
+      <nav>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          <li><a href="#plans">Membership Plans</a></li>
+          <li><a href="#team">Our Team</a></li>
+          <li><a href="#faq">FAQs</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section id="hero" class="hero-content">
+      <h2>Welcome to Iron Haven Gym</h2>
+      <p>Your ultimate destination for strength and fitness.</p>
+      <a href="#contact" class="btn-primary">Join Us Now</a>
+    </section>
+    <div class="container">
+      <section id="services" class="services">
+        <h2>Our Services</h2>
+        <ul>
+          <li>Personal Training</li>
+          <li>Group Classes</li>
+          <li>Nutrition Coaching</li>
+          <li>State-of-the-art Equipment</li>
+        </ul>
+      </section>
+      <section id="schedule" class="schedule">
+        <h2>Class Schedule</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Day</th>
+              <th>Time</th>
+              <th>Class</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Monday</td>
+              <td>6:00 PM</td>
+              <td>HIIT</td>
+            </tr>
+            <tr>
+              <td>Tuesday</td>
+              <td>7:00 PM</td>
+              <td>Yoga</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <section id="plans" class="plans">
+        <h2>Membership Plans</h2>
+        <div class="plan">
+          <h3>Basic Plan</h3>
+          <p>$29 / month</p>
+          <a href="#contact" class="btn-primary">Sign Up</a>
+        </div>
+        <div class="plan">
+          <h3>Standard Plan</h3>
+          <p>$49 / month</p>
+          <a href="#contact" class="btn-primary">Sign Up</a>
+        </div>
+        <div class="plan">
+          <h3>Premium Plan</h3>
+          <p>$69 / month</p>
+          <a href="#contact" class="btn-primary">Sign Up</a>
+        </div>
+      </section>
+      <section id="team" class="team">
+        <h2>Meet Our Team</h2>
+        <div class="team-member">
+          <img
+            src="jamesSmith.jpg"
+            alt="Trainer 1"
+          />
+          <h3>James Smith</h3>
+          <p>Head Trainer</p>
+        </div>
+        <div class="team-member">
+          <img
+            src="janeSmith.jpg"
+            alt="Trainer 2"
+          />
+          <h3>Jane Smith</h3>
+          <p>Nutrition Expert</p>
+        </div>
+      </section>
+      <section id="faq" class="faq">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-item">
+          <h3>What are your opening hours?</h3>
+          <p>We are open from 5 AM to 11 PM daily.</p>
+        </div>
+        <div class="faq-item">
+          <h3>Do you offer personal training?</h3>
+          <p>
+            Yes, we offer personalized training sessions with certified
+            trainers.
+          </p>
+        </div>
+      </section>
+      <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form class="contact-form" action="submit_form.php" method="post">
+          <input type="text" name="name" placeholder="Your Name" />
+          <input type="email" name="email" placeholder="Your Email" />
+          <textarea name="message" placeholder="Your Message"></textarea>
+          <button type="submit" class="btn-primary">Send Message</button>
+        </form>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 Iron Haven Gym. All rights reserved.</p>
+    </footer>
+    <script src="GymWebsiteProject.js"></script>
+  </body>
+</html>
